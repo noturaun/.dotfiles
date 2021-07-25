@@ -1,0 +1,29 @@
+alias aliases="nano ~/.dotfiles/.aliases"
+alias paths="nano ~/.dotfiles/.paths"
+#list of aliases
+
+#apt related
+alias install="sudo apt install"
+alias install-r="sudo apt --install-suggests install"
+alias install-n"sudo apt --no-recommend install"
+alias search="apt-cache search"
+alias remove="sudo apt remove"
+alias auto-rm="sudo apt autoremove"
+alias purge="sudo apt purge"
+alias update="sudo apt update"
+alias upgrade="sudo apt update && sudo apt upgrade -y"
+alias unpack="sudo dpkg -i"
+
+#zsh
+alias zc="nano ~/.dotfiles/.zshrc"
+alias zs="source ~/.dotfiles/.zshrc"
+alias marsh="nano ~/.oh-my-zsh/custom/themes/marsh.zsh-theme"
+
+#ssh keyconf
+alias keyconf="nano ~/.dotfiles/.ssh/config"
+
+#to change between version
+alias change="sudo update-alternatives --config"
+
+#docker
+alias create
