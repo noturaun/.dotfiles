@@ -6,7 +6,7 @@ export PATH="$MAVEN_HOME/bin:$PATH"
 #export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 #export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 #export JAVA_HOME=/usr/lib/jvm/java-15-openjdk-amd64
-#export JAVA_HOME=/usr/lib/jvm/java-16-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-16-openjdk-amd64
 
 export ANDROID_HOME="$HOME/Android/Sdk"
 export ANDROID_SWT="$ANDROID_HOME/tools/lib/x86_64"
@@ -17,6 +17,6 @@ export PATH="$PATH:$ANDROID_HOME/build-tools/30.0.1"
 
 
 # MUST BE AT EOL
-export SDKMAN_DIR="/home/noturaun/.sdkman"
-[[ -s "/home/noturaun/.sdkman/bin/sdkman-init.sh" ]] && source "/home/noturaun/.sdkman/bin/sdkman-init.sh"
+#export SDKMAN_DIR="/home/noturaun/.sdkman"
+#[[ -s "/home/noturaun/.sdkman/bin/sdkman-init.sh" ]] && source "/home/noturaun/.sdkman/bin/sdkman-init.sh"
 

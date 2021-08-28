@@ -7,12 +7,16 @@ alias install="sudo apt install"
 alias install-r="sudo apt --install-suggests install"
 alias install-n"sudo apt --no-recommend install"
 alias search="apt-cache search"
+alias add="sudo add-apt-repository"
 alias remove="sudo apt remove"
+alias upgradable="apt list --upgradable"
 alias auto-rm="sudo apt autoremove"
 alias purge="sudo apt purge"
 alias update="sudo apt update"
 alias upgrade="sudo apt update && sudo apt upgrade -y"
 alias unpack="sudo dpkg -i"
+alias reconfig="sudo apt -f install"
+alias upgradable="apt list --upgradable"
 
 #zsh
 alias zc="nano ~/.dotfiles/.zshrc"
@@ -23,7 +27,27 @@ alias marsh="nano ~/.oh-my-zsh/custom/themes/marsh.zsh-theme"
 alias keyconf="nano ~/.dotfiles/.ssh/config"
 
 #to change between version
-alias change="sudo update-alternatives --config"
+alias switch="sudo update-alternatives --config"
 
 #docker
-alias create
+alias create-c="docker create container"
+alias logs-c="docker logs"
+alias start="docker container start"
+alias stop="docker container stop"
+alias restart="docker container restart"
+alias rm-c="docker rm"
+#alias dls="docker ls"
+#alias dlsa="docker ls -a"
+#alias dps="docker ps"
+#alias psa="docker ps -a"
+#alias run="docker run"
+#alias images="docker images"
+#alias exec="docker exec"
+#alias exec-it="docker exec -it"
+
+# aliases to run predefined container name
+alias mysql="docker container start mysql && docker exec -it mysql /bin/bash"
+
+
+# aliases for snap
+alias si="sudo snap install"
