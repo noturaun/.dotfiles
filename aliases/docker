@@ -1,0 +1,22 @@
+alias docker-aliases="nano ~/.dotfiles/aliases/docker"
+
+
+#docker
+alias create-c="docker create container"
+alias logs-c="docker logs"
+alias start="docker container start"
+alias stop="docker container stop"
+alias restart="docker container restart"
+alias rm-c="docker rm"
+#alias dls="docker ls"
+#alias dlsa="docker ls -a"
+#alias dps="docker ps"
+#alias psa="docker ps -a"
+#alias run="docker run"
+#alias images="docker images"
+#alias exec="docker exec"
+#alias exec-it="docker exec -it"
+
+
+# aliases to run predefined container name
+alias mysql="docker container start mysql && docker exec -it mysql /bin/bash"

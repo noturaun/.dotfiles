@@ -1,0 +1,5 @@
+alias zsh-aliases="nano ~/.dotfiles/aliases/zsh"
+
+alias zc="nano ~/.dotfiles/.zshrc"
+alias zs="source ~/.dotfiles/.zshrc"
+alias marsh="nano ~/.oh-my-zsh/custom/themes/marsh.zsh-theme"

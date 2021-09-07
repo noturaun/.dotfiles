@@ -1,5 +1,22 @@
 
 
+# aliases paths
+# parent folder
+export ALIASES="/home/noturaun/.dotfiles/aliases/"
+
+#apt aliases
+source $ALIASES/apt
+
+#zsh
+source $ALIASES/zsh
+
+#docker
+source $ALIASES/docker
+
+#snap
+source $ALIASES/snap
+
+
 #path
 export MAVEN_HOME="$HOME/Applications/mvn/"
 export PATH="$MAVEN_HOME/bin:$PATH"

@@ -1,0 +1,3 @@
+alias snap-aliases="nano ~/.dotfiles/aliases/snap"
+
+alias si="sudo snap install"

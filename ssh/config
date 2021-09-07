@@ -2,7 +2,7 @@
 Host me
 	Hostname github.com
 	User git
-	IdentityFile ~/.ssh/personal
+	IdentityFile ~/.ssh/id_noturaun
 #Host EndevaVBox
 #	Hostname github.com
 #	User git
