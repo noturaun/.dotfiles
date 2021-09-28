@@ -2,9 +2,13 @@ alias aliases="nano ~/.dotfiles/.aliases"
 alias paths="nano ~/.dotfiles/.paths"
 
 #ssh keyconf
-alias keyconf="nano ~/.dotfiles/.ssh/config"
+alias keyconf="nano ~/.dotfiles/ssh/config"
 
 #to change between version
 alias switch="sudo update-alternatives --config"
 
+#cd to dev disk
+alias dev="cd /mnt/dev/"
 
+# add ssh identity
+alias sai="ssh-add ~/.ssh/id_noturaun"

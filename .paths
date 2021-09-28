@@ -1,29 +1,30 @@
-
-
 # aliases paths
 # parent folder
 export ALIASES="/home/noturaun/.dotfiles/aliases/"
 
-#apt aliases
+# apt aliases
 source $ALIASES/apt
 
-#zsh
+# zsh
 source $ALIASES/zsh
 
-#docker
+# docker
 source $ALIASES/docker
 
-#snap
+# snap
 source $ALIASES/snap
 
+# end of aliases paths
 
-#path
+# maven
 export MAVEN_HOME="$HOME/Applications/mvn/"
 export PATH="$MAVEN_HOME/bin:$PATH"
-#export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-#export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-#export JAVA_HOME=/usr/lib/jvm/java-15-openjdk-amd64
-export JAVA_HOME=/usr/lib/jvm/java-16-openjdk-amd64
+
+# java
+# export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+# export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+# export JAVA_HOME=/usr/lib/jvm/java-15-openjdk-amd64
+ export JAVA_HOME=/usr/lib/jvm/java-16-openjdk-amd64
 
 export ANDROID_HOME="$HOME/Android/Sdk"
 export ANDROID_SWT="$ANDROID_HOME/tools/lib/x86_64"
@@ -33,7 +34,14 @@ export PATH="$PATH:$ANDROID_HOME/build-tools/30.0.1"
 
 
 
+# go
+export PATH=$PATH:/usr/local/go/bin
+
+# pip
+export PATH=$PATH:~/.local/bin
+
+# sdkman
 # MUST BE AT EOL
-#export SDKMAN_DIR="/home/noturaun/.sdkman"
-#[[ -s "/home/noturaun/.sdkman/bin/sdkman-init.sh" ]] && source "/home/noturaun/.sdkman/bin/sdkman-init.sh"
+# export SDKMAN_DIR="/home/noturaun/.sdkman"
+# [[ -s "/home/noturaun/.sdkman/bin/sdkman-init.sh" ]] && source "/home/noturaun/.sdkman/bin/sdkman-init.sh"
 

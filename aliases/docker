@@ -1,7 +1,8 @@
 alias docker-aliases="nano ~/.dotfiles/aliases/docker"
 
 
-#docker
+# docker
+alias pull="docker pull"
 alias create-c="docker create container"
 alias logs-c="docker logs"
 alias start="docker container start"
@@ -19,4 +20,5 @@ alias rm-c="docker rm"
 
 
 # aliases to run predefined container name
+alias mysql_setup="docker container create --name mysql -p 3306:3306 -e "MYSQL_ROOT_PASSWORD=123456" mysql:latest"
 alias mysql="docker container start mysql && docker exec -it mysql /bin/bash"

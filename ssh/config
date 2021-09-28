@@ -1,9 +1,10 @@
 #personal
-Host me
+Host github
 	Hostname github.com
 	User git
 	IdentityFile ~/.ssh/id_noturaun
-#Host EndevaVBox
+
+# Host EndevaVBox
 #	Hostname github.com
 #	User git
 #	IdentityFile ~/.ssh/id_ed25519
