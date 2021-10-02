@@ -1,0 +1,10 @@
+alias git-aliases="nano ~/.dotfiles/aliases/git"
+
+alias ga="git add"
+alias gaa="git add ."
+alias gcm="git commit -m"
+alias gcam="git commit -am"
+alias gpm="git push -u origin main"
+alias gpb="git push -u origin"
+alias gpull="git pull"
+
