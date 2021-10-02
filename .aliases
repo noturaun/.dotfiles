@@ -12,3 +12,6 @@ alias dev="cd /mnt/dev/"
 
 # add ssh identity
 alias sai="ssh-add ~/.ssh/id_noturaun"
+
+# run katalon
+alias katalon="~/Applications/Katalon_Studio_Linux_64-8.1.0/katalon"
