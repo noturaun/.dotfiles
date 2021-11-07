@@ -3,7 +3,7 @@
 export ALIASES="/home/noturaun/.dotfiles/aliases/"
 
 # apt aliases
-source $ALIASES/apt
+# source $ALIASES/apt
 
 # zsh
 source $ALIASES/zsh
@@ -20,8 +20,9 @@ source $ALIASES/git
 # end of aliases paths
 
 # maven
-export MAVEN_HOME="$HOME/Applications/mvn/"
-export PATH="$MAVEN_HOME/bin:$PATH"
+export MAVEN_VERSION="3.8.3"
+export MAVEN_HOME="$HOME/Applications/mvn"
+export PATH="$MAVEN_HOME/$MAVEN_VERSION/bin:$PATH"
 
 # java
  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
@@ -45,6 +46,6 @@ export PATH=$PATH:~/.local/bin
 
 # sdkman
 # MUST BE AT EOL
-# export SDKMAN_DIR="/home/noturaun/.sdkman"
-# [[ -s "/home/noturaun/.sdkman/bin/sdkman-init.sh" ]] && source "/home/noturaun/.sdkman/bin/sdkman-init.sh"
+ export SDKMAN_DIR="/home/noturaun/.sdkman"
+ [[ -s "/home/noturaun/.sdkman/bin/sdkman-init.sh" ]] && source "/home/noturaun/.sdkman/bin/sdkman-init.sh"
 
